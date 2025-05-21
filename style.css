@@ -9,10 +9,75 @@ body {
 }
 
 header {
-    padding-left: 1rem;
-    padding-right: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-row{
+     height: 46px;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 16px;
+     padding-right: 27px;
 }
 
 .main-logo{
-  width: 1.9rem;
+  width: 31px;
+  height: 46px;
+}
+
+.signIn-logo{
+  width: 24px
+
+}
+
+.search-input{
+  border-radius: 12px;
+  padding-left: 8px;
+  border: 1px solid #E5E5E5;
+  outline: none;
+
+}
+.search-input::placeholder {
+  font-size: 12px;
+
+}
+
+
+.input-signIn{
+  display: flex;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  gap: 8px;
+
+}
+
+.header-line {
+  border-top: 0.5px solid #E5E5E5;
+}
+
+nav{
+   padding-left: 16px;
+   padding-right: 30px;
+   margin-top: 12px;
+}
+
+nav ul{
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.arrow-drop-down{
+  width: 7px;
+  height: 3px;
+  margin-top: 4px;
+}
+
+.category-and-arrow{
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
