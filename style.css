@@ -5,79 +5,115 @@
 }
 
 body {
- 
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 header {
-
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
 }
 
-.top-row{
-     height: 46px;
-     display: flex;
-     justify-content: space-between;
-     padding-left: 16px;
-     padding-right: 27px;
+.top-row {
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 27px;
 }
 
-.main-logo{
+.main-logo {
   width: 31px;
   height: 46px;
 }
 
-.signIn-logo{
-  width: 24px
-
+.signIn-logo {
+  width: 24px;
 }
 
-.search-input{
+.search-input {
   border-radius: 12px;
   padding-left: 8px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   outline: none;
-
 }
 .search-input::placeholder {
   font-size: 12px;
-
 }
 
-
-.input-signIn{
+.input-signIn {
   display: flex;
   padding-top: 11px;
   padding-bottom: 11px;
   gap: 8px;
-
 }
 
 .header-line {
-  border-top: 0.5px solid #E5E5E5;
+  border-top: 0.5px solid #e5e5e5;
 }
 
-nav{
-   padding-left: 16px;
-   padding-right: 30px;
-   margin-top: 12px;
+nav {
+  padding-left: 16px;
+  padding-right: 30px;
+  margin-top: 12px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   font-size: 12px;
   justify-content: space-between;
 }
 
-.arrow-drop-down{
+.arrow-drop-down {
   width: 7px;
   height: 3px;
   margin-top: 4px;
 }
 
-.category-and-arrow{
+.category-and-arrow {
   display: flex;
   align-items: center;
   gap: 3px;
+}
+
+main {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.article-1 h1 {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #4e4e4e;
+  margin-bottom: 8px;
+}
+
+.spaceship-image-1 {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.article-1 p {
+  color: #737373;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.user-image {
+  width: 13px;
+}
+
+.user-and-postTime {
+  display: flex;
+  gap: 4px;
+}
+
+.user-and-postTime h4 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #474747;
 }
