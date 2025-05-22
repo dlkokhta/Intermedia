@@ -77,7 +77,12 @@ nav ul {
   gap: 3px;
 }
 
-main {
+/* main {
+  padding-left: 16px;
+  padding-right: 16px;
+} */
+
+.article-1 {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -211,6 +216,11 @@ main {
   margin-bottom: 32px;
 }
 
+.news-article-main-container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .news-article-header {
   display: flex;
   align-items: center;
@@ -260,4 +270,73 @@ main {
   font-size: 11px;
   font-weight: 500;
   color: #474747;
+}
+
+.article-5 {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.human-image {
+  width: 100%;
+}
+
+.article-5-section-1-text-contaner {
+  color: white;
+}
+
+.article-5-section-1-text-contaner h2 {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.article-5-section-1-text-contaner p {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 8px;
+  color: #b5b5b5;
+  margin-bottom: 68px;
+}
+
+.article-5-section-2 h5 {
+  color: #c6c6c6;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 16px;
+  margin-top: 18px;
+}
+
+.article-5-section-2 p {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 16px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.article-5-section-2-user-and-postTime {
+  display: flex;
+  color: #b5b5b5;
+  gap: 4px;
+  padding-left: 16px;
+  margin-top: 2px;
+}
+
+.article-5-section-2-user-and-postTime h4 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.spaceship3-image {
+  width: 100%;
+}
+.article-5-section-2 {
+  padding-top: 16px;
+  padding-bottom: 22px;
 }
