@@ -95,6 +95,7 @@ main {
 .spaceship-image-1 {
   width: 100%;
   margin-bottom: 8px;
+  border-radius: 5px;
 }
 
 .article-1 p {
@@ -200,4 +201,63 @@ main {
   flex-direction: column;
   row-gap: 8px;
   margin-bottom: 22px;
+}
+
+.article-3-and-article-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.news-article-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.news-article-header h1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.news-article-header-line {
+  background-color: #dadada;
+  height: 1px;
+  width: 100%;
+}
+
+.news-article-section h2 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
+.spaceship-image-2 {
+  width: 87px;
+  height: 88px;
+  border-radius: 5px;
+}
+
+.news-article-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.news-article-section-container {
+  margin-top: 24px;
+}
+
+.news-article-user-and-postTime {
+  display: flex;
+  gap: 4px;
+  margin-top: 7px;
+}
+
+.news-article-user-and-postTime h4 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #474747;
 }
