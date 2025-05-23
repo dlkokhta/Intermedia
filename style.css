@@ -340,7 +340,7 @@ nav ul {
 }
 .article-5-section-2 {
   padding-top: 16px;
-  padding-bottom: 22px;
+  padding-bottom: 75px;
 }
 
 .carusel-section {
@@ -662,6 +662,9 @@ nav ul {
 .footer-text-container {
   text-align: center;
 }
+.news-article-header {
+  display: none;
+}
 
 @media screen and (min-width: 1440px) {
   .mobile-header {
@@ -832,6 +835,7 @@ nav ul {
     flex-direction: row;
     padding-left: 64px;
     padding-right: 64px;
+    margin-bottom: 64px;
   }
   .news-article-section-container {
     display: none;
@@ -1025,5 +1029,21 @@ nav ul {
   .news-article-header {
     padding-left: 64px;
     padding-right: 64px;
+  }
+
+  .user-info-button {
+    display: block;
+    border: 1px solid #dadada;
+    padding: 4px 12px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .user-info-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 16px;
   }
 }
