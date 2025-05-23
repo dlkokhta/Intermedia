@@ -7,7 +7,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-display: optional;
 }
 
 .mobile-header {
@@ -169,6 +169,7 @@ nav ul {
 }
 .article-2-list-image {
   width: 22px;
+  height: auto;
 }
 
 .article-2-button-container {
@@ -347,7 +348,7 @@ nav ul {
 }
 .article-5-section-2 {
   padding-top: 16px;
-  padding-bottom: 75px;
+  padding-bottom: 37px;
 }
 
 .carusel-section {
@@ -669,6 +670,10 @@ nav ul {
   text-align: center;
 }
 .news-article-header {
+  display: none;
+}
+
+.spaceship-image-1-desktop {
   display: none;
 }
 
@@ -1064,5 +1069,12 @@ nav ul {
     top: 0;
     right: 0;
     margin-right: 10px;
+  }
+  .spaceship-image-1-mobile {
+    display: none;
+  }
+
+  .spaceship-image-1-desktop {
+    display: block;
   }
 }
